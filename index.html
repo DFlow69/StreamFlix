@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreamFlix - Your Media Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h1>StreamFlix</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active" data-category="movies">Movies</a></li>
+                    <li><a href="#" data-category="tvshows">TV Shows</a></li>
+                    <li><a href="#" data-category="anime">Anime</a></li>
+                    <li><a href="#" data-category="local">Local</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" id="search" placeholder="Search...">
+                <button id="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+        </header>
+
+        <main>
+            <div class="player-container" id="player-section" style="display: none;">
+                <div class="player-wrapper">
+                    <div class="back-button" id="back-btn">
+                        <i class="fas fa-arrow-left"></i> Back
+                    </div>
+                    <h2 id="media-title">Media Title</h2>
+                    <div class="video-container">
+                        <video id="video-player" controls>
+                            <source src="" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div id="episode-selector" class="episode-selector" style="display: none;">
+                        <div class="season-selector">
+                            <label for="season-select">Season:</label>
+                            <select id="season-select"></select>
+                        </div>
+                        <div class="episodes-grid" id="episodes-grid">
+                            <!-- Episodes will be populated here -->
+                        </div>
+                    </div>
+                </div>
+                <div class="media-info">
+                    <div class="media-details">
+                        <p id="media-year"></p>
+                        <p id="media-rating"></p>
+                        <p id="media-duration"></p>
+                    </div>
+                    <p id="media-description"></p>
+                </div>
+            </div>
+
+            <div id="content-section">
+                <div class="section movies" id="movies-section">
+                    <h2>Movies</h2>
+                    <div class="content-grid" id="movies-grid">
+                        <!-- Movies will be loaded here -->
+                    </div>
+                </div>
+
+                <div class="section tvshows" id="tvshows-section" style="display: none;">
+                    <h2>TV Shows</h2>
+                    <div class="content-grid" id="tvshows-grid">
+                        <!-- TV Shows will be loaded here -->
+                    </div>
+                </div>
+
+                <div class="section anime" id="anime-section" style="display: none;">
+                    <h2>Anime</h2>
+                    <div class="content-grid" id="anime-grid">
+                        <!-- Anime will be loaded here -->
+                    </div>
+                </div>
+                
+                <div class="section local" id="local-section" style="display: none;">
+                    <h2>Local Videos</h2>
+                    <div class="content-grid" id="local-grid">
+                        <!-- Local videos will be loaded here -->
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 StreamFlix. All rights reserved. For educational purposes only.</p>
+        </footer>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
