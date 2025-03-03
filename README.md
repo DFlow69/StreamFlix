@@ -8,7 +8,7 @@ Your contributions will be merged with the main branch if you add good content! 
   1. Open data.js
   2. Find your type (movie,tv show or anime)
   3. Add Movie:
-        `   {
+        ``  {
           id: 'movie6',
           title: 'Title',
           year: ----,
@@ -17,10 +17,10 @@ Your contributions will be merged with the main branch if you add good content! 
           description: '...',
           poster: 'Poster Link (copy image url from google or smt)',
           src: 'File Link (Google Drive Embed Preview or WebArchive Embed)'
-      }`
+      }``
      PS: If it doesn't work maybe you missed the "," after the last curly bracket on the previous movie.
 4. Add TV Show/Anime:
-   `id: 'tvshow2',
+  ` `id: 'tvshow2',
           title: 'Show Title',
           year: '????-????',
           rating: 'TV-??',
@@ -39,7 +39,7 @@ Your contributions will be merged with the main branch if you add good content! 
                   ]
               },        
           ]
-      },`
+      },``
    Note: Add episodes by adding:
    `
    #Previous ep just added the comma >},
@@ -51,11 +51,11 @@ Your contributions will be merged with the main branch if you add good content! 
    `
   Note: Add seasons by adding:                                
 `                                            
-  seasons: [                                                 ^
-      {                                                      ^
-         season: #                                           ^
-         episodes: [                                         ^
-              {                                              ^
+  seasons: [
+      {
+         season: #
+         episodes: [
+              {
                //Add your episode here from the episode Note ^
                }
        } //Here ends season # to add the new one just add the come on this curly bracket on this line and on a new line open new curly brackets and start typing the same thing from line 53 to 57 and just close brackets again
