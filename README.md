@@ -29,27 +29,48 @@ Your contributions will be merged with the main branch if you add good content! 
           src: 'File Link (Google Drive Embed Preview or WebArchive Embed)'
      
       }`
+     
      PS: If it doesn't work maybe you missed the "," after the last curly bracket on the previous movie.
-5. Add TV Show/Anime:
-    `id: 'tvshow2',
+4. Add TV Show/Anime:
+
+       `id: 'tvshow2',
+   
           title: 'Show Title',
+   
           year: '????-????',
+   
           rating: 'TV-??',
+   
           duration: '? Seasons',
+   
           description: '...',
+   
           poster: 'Poster Link (You can copy picture link of something found on google)',
+   
           seasons: [
+   
               {
+   
                   season: 1,
+   
                   episodes: [
+   
                       {
+   
                           episode: 1,
+   
                           title: 'Shadows Rising',
+   
                           src: 'https://example.com/videos/shadow-s01e01.mp4'
+   
                       }
+   
                   ]
-              },        
+   
+              },
+   
           ]
+   
       },`
    Note: Add episodes by adding:
    `
