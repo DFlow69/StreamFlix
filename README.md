@@ -8,7 +8,9 @@ Your contributions will be merged with the main branch if you add good content! 
   1. Open data.js
   2. Find your type (movie,tv show or anime)
   3. Add Movie:
-        `  {
+        
+
+    ` {
      
           id: 'movie6',
      
