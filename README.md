@@ -26,7 +26,7 @@ Your contributions will be merged with the main branch if you add good content! 
      
           poster: 'Poster Link (copy image url from google or smt)',
      
-          src: 'File Link (Google Drive Embed Preview or WebArchive Embed)'
+          src: 'Video Link (Google Drive Embed Preview or WebArchive Embed)'
      
       }`
      
@@ -61,7 +61,7 @@ Your contributions will be merged with the main branch if you add good content! 
    
                           title: 'Shadows Rising',
    
-                          src: 'https://example.com/videos/shadow-s01e01.mp4'
+                          src: 'Video Link (Google Drive Embed Preview or WebArchive Embed)'
    
                       }
    
@@ -72,15 +72,20 @@ Your contributions will be merged with the main branch if you add good content! 
           ]
    
       },`
+   
    Note: Add episodes by adding:
-   `
-   #Previous ep just added the comma >},
+
+     ` #Previous ep just added the comma >},
+  
    {
+   
      episode: ?
+   
      title: 'ep title'
+   
      src: 'vid link (Google Drive/WebArchive embed preview link (soon to support more))'
-   }
-   `
+   
+   }`
   Note: Add seasons by adding:
                                           
 `  seasons: [
