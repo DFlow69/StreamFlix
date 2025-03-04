@@ -1,6 +1,9 @@
 # StreamFlix
 Movie/TV Show/Anime streaming website.
 
+# Preview avalible at:
+  https://bg-stream-flix.netlify.app
+
 # Warning: I can`t make the readme look good so enjoy your pain of reading!
 # Adding support of other embed links coming soon feel free to request to embed links from other sites
 
